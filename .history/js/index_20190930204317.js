@@ -11,7 +11,7 @@ function setHomeBG (gettime) {
 
 $(function () {
     // var nowtime = Math.floor(Date.now() / 1000);
-    // console.log(nowtime);
+    console.log(nowtime);
     // setHomeBG(nowtime);
     // 遍历所有的左侧子导航列
     $(".asideNav li a").each(function () {

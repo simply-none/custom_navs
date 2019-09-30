@@ -224,7 +224,7 @@ nav div h2:before {
     width: 85%;
     height: 100vh;
     padding: 1px;
-    background-image: url(https://api.dujin.org/bing/1920.php);
+    /* background-image: url(https://api.dujin.org/bing/1920.php); */
     /* background: #f3f6f8; */
     background-repeat: repeat;
     background-position: center top;
