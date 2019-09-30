@@ -3,7 +3,6 @@
 */
 // 设置首页为bing背景图片
 // 使用其他人制作的接口
-// https://api.dujin.org/bing/1920.php
 function setHomeBG (gettime) {
     $("#main").css("background", "url(https://cn.bing.com/th?id=OHR.CrimsonRosella_ZH-CN" + gettime +"_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp)");
 }
