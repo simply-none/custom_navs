@@ -214,36 +214,16 @@ nav div h2:before {
     color: #fff;
 }
 
-
 /*主要内容 右侧*/
-#main {
+main {
     position: relative;
-    overflow: scroll;
     left: 15%;
     box-sizing: border-box;
     width: 85%;
-    height: 100vh;
     padding: 1px;
     background-image: url(https://cn.bing.com/th?id=OHR.CrimsonRosella_ZH-CN1581892400_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp);
     /* background: #f3f6f8; */
-    background-repeat: repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    color: #4D4D4D;
-}
-
-main {
-    position: absolute;
-    /* left: 15%; */
-    box-sizing: border-box;
-    width: 100%;
-    /* height: 100vh; */
-    /* padding: 1px; */
-    /* background-image: url(https://cn.bing.com/th?id=OHR.CrimsonRosella_ZH-CN1581892400_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp); */
-    /* background: #f3f6f8; */
-    /* background-repeat: repeat; */
-    background-position: center top;
-    /* background-attachment: fixed; */
+    background-r
     color: #4D4D4D;
 }
 main>.sectionNav {
@@ -251,7 +231,7 @@ main>.sectionNav {
     margin: 20px 60px;
     padding-bottom: 2%;
     overflow: hidden;
-    background-color: #00000000;
+    background-color: #00000052;
 }
 .sectionNavDisplayNone {
     display: none;
@@ -284,7 +264,7 @@ main>.sectionNav {
 .sectionNav .content .detailContent:hover {
     margin-top: 1.5%;
     /*color: rgb(250, 255, 255);*/
-    background: #5353539c;
+    /* background: #30333c; */
 }
 /*清除每行末尾元素变化时，之后的元素会挤上来的效果*/
 .sectionNav .content .detailContent:nth-child(4n+1) {
